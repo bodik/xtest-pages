@@ -18,11 +18,7 @@ some more devel documentation
 
 .. note::
 
-    Please be aware, that this documentation is appropriate for following version:
-
-    * version:      |bversion| (|bdate|)
-    * distribution: |codename| (|suite|)
-    * Git revision: |urlrevtt|_
+   Generated for git branch |git_branch| commit |git_commit|.
 
 
 Indices and tables
