@@ -18,7 +18,7 @@ some more devel documentation
 
 .. note::
 
-   Generated for git branch **|git_branch|** commit |git_commit|.
+   Generated for git branch |git_branch| commit |git_commit|.
 
 
 Indices and tables
