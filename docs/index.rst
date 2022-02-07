@@ -11,6 +11,8 @@ Welcome to xtest-sphinx's documentation!
    :caption: Contents:
 
 
+This is master branch documentation
+
 
 Indices and tables
 ==================
