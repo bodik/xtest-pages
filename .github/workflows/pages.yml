@@ -13,7 +13,7 @@ jobs:
       with:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: install sphinx readthedocs theme
-      run: pip3 install sphinx-rtd-theme
+      run: pip install sphinx-rtd-theme
     - name: Build and Commit
       uses: bodik/sphinx-notes-pages@v2
     - name: Push changes
