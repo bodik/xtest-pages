@@ -39,6 +39,16 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+import subprocess
+custom_metadata = {}
+custom_metadata['git_branch'] = subprocess.run(['git', 'name-rev', '--name-only', 'HEAD'], check=True, text=True, capture_output=True).stdout.strip()
+custom_metadata['git_commit'] = subprocess.run(['git', 'rev-parse', '--short', 'HEAD'], check=True, text=True, capture_output=True).stdout.strip()
+
+rst_epilog = """
+.. |git_branch| replace:: {git_branch}
+.. |git_commit| replace:: {git_commit}
+""".format(**custom_metadata)
+
 
 # -- Options for HTML output -------------------------------------------------
 
