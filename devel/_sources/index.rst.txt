@@ -16,6 +16,15 @@ This is devel branch documentation
 some more devel documentation
 
 
+.. note::
+
+    Please be aware, that this documentation is appropriate for following version:
+
+    * version:      |bversion| (|bdate|)
+    * distribution: |codename| (|suite|)
+    * Git revision: |urlrevtt|_
+
+
 Indices and tables
 ==================
 
